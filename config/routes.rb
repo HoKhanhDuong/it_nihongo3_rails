@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :book_reviews
   resources :users
   get 'users/show'
   resources :books
